@@ -2,6 +2,9 @@
 
 This is a Chrome extension that captures information about the currently active tab and sends it to Line using the Line Notify API.
 
+<img width="434" alt="image" src="https://github.com/jchang6513/line-notify-extension/assets/31400914/e766701a-5f23-4f25-a0c3-9793c06c3ee0">
+
+
 ## Installation
 
 1. Download or clone this repository to your local machine.
