@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>JSONVue options</title>
+  <style>
+    .options {
+      padding: 8px;
+    }
+
+    fieldset {
+      border-width: 0px;
+      padding: 0;
+    }
+
+    section {
+      display: flex;
+      align-items: end;
+    }
+
+    section.vertical {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    section label {
+      flex-grow: 1;
+      user-select: none;
+      margin-bottom: 8px;
+      font-size: 24px;
+    }
+
+    input {
+      font-size: 18px;
+      width: calc(100% - 8px);
+      margin-bottom: 8px;
+    }
+
+    .action {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    button {
+      border: none;
+      border-radius: 4px;
+      background: #e7e7e7;
+      cursor: pointer;
+      padding: 4px 8px;
+    }
+  </style>
+</head>
+
+<body>
+	<div class="options">
+		<fieldset>
+			<section class="vertical">
+				<label for="jsonPrefixInput">Access Token</label>
+				<input type="text" id="accessToken">
+			</section>
+		</fieldset>
+    <div class="action">
+      <button id="save">Save</button>
+    </div>
+	</div>
+	<script type="text/javascript" src="options.js"></script>
+</body>
+
+</html>

@@ -5,7 +5,8 @@
 // For more information on background script,
 // See https://developer.chrome.com/extensions/background_pages
 
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {c
+  console.log(type)
   if (request.type === 'GREETINGS') {
     const message = `Hi ${
       sender.tab ? 'Con' : 'Pop'

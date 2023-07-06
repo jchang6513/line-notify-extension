@@ -19,6 +19,10 @@
   "permissions": [
     "storage"
   ],
+  "options_ui": {
+    "browser_style": true,
+    "page": "options.html"
+  },
   "content_scripts": [
     {
       "matches": [
